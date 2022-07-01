@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D5D98"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo_img"
+            android:layout_width="200dp"
+            android:layout_height="207dp"
+            android:layout_marginLeft="-270dp"
+            android:layout_toRightOf="@+id/pro_txt"
+            android:src="@drawable/restaurant2_hafid" />
+
+        <TextView
+            android:id="@+id/pro_txt"
+            style="@style/TextAppearance.AppCompat.Display1"
+            android:layout_width="353dp"
+            android:layout_height="69dp"
+            android:layout_alignBottom="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-88dp"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1.0"
+            android:text="Aplikasi Ini dibuat untuk menampilkan 5 Resto Terfavorit yang Ada di Sekitar Anda"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</FrameLayout>
